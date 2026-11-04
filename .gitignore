@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+*.tsbuildinfo
+backend/uploads/*
+!backend/uploads/.gitkeep
+# compiled TypeScript output (regenerate with `npm run build`)
+backend/src/**/*.js
+backend/src/**/*.js.map
+backend/src/**/*.d.ts
+backend/src/**/*.d.ts.map
+!backend/src/initDb.js
+!backend/src/createUser.js
